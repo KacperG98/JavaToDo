@@ -18,6 +18,10 @@ public class Task {
 
     private boolean isComplete = false;
 
+    public Task() {
+
+    }
+
     public Task(String title, String description) {
         this.title = title;
         this.description = description;
